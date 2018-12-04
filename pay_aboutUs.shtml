@@ -1,0 +1,385 @@
+<!-------------------------------------------------------------------------// 
+|    飞狐灵动网络接仿站定制 ： [ Php、Asp、Html 、C+、服务器、主机]        
+---------------------------------------------------------------------------//  
+|                   飞狐灵动网络     官网：www.lailal.com                 
+---------------------------------------------------------------------------// 
+|               主 动 才 会 有 故 事 ，赶 紧 联 系 我 们 吧 ！             
+---------------------------------------------------------------------------// 
+|    E-mail:  admin@lailal.com    狐狸QQ：2501888880  2058222220            
+---------------------------------------------------------------------------// 
+| Copyright (c) 2008-2018 http://www.lailal.com  All rights reserved.      
+---------------------------------------------------------------------------//
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="Author" content="飞狐易支付">
+		<meta name="keywords" content="飞狐易支付,云钱包,云支付,云结算,支付接口,支付营销,对账,微信支付,支付宝,QQ钱包,个人支付接口,免签支付接口,网站支付接口">
+		<meta name="description" content="飞狐易支付,专业的收银系统,集成主流支付渠道,协助中小企业快速布局、改善甚至拓展收银场景,适用于网站、门店、社会化传播等线上线下收银场景。" />
+		<link rel="stylesheet" href="lailal_COM/css/main_2.css" />
+		<link rel="stylesheet" href="lailal_COM/css/font-awesome.min_2.css" />
+		<script src="lailal_COM/js/jquery.min_2.js"></script>
+		<script src="lailal_COM/js/jquery.dropotron.min_2.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="lailal_COM/css/ie8_2.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="lailal_COM/js/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="lailal_COM/js/respond.min.js"></script><![endif]-->
+		<title>飞狐易支付 -  聚合支付系统 | 支付宝 微信支付 支付接口</title>
+	</head>
+
+	<body>
+		<section id="page-wrapper">
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="#"><img src="lailal_COM/picture/logo_2.png"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li>
+							<a href="./#lailal.com">首页</a>
+						</li>
+						<li>
+							<a href="pay_produceIntroduce.shtml">功能介绍</a>
+						</li>
+						<li>
+							<a href="pay_costExplain.shtml">费用说明</a>
+						</li>
+						<!--li>
+							<a href="merchant/Api.html">API</a>
+						</li-->
+						<li>
+							<a target="_blank" href="http://help.ail.one">帮助文档</a>
+						</li>
+					</ul>
+				</nav> 				<nav id="navRight">
+					<ul>
+						<li>
+							<a href="http://pay.cccyun.cc/user/login.php" class="button login_btn">商户登录</a>
+						</li>
+						<li>
+							<a href="http://wpa.qq.com/msgrd?v=3&uin=3533333321&site=qq&menu=yes" class="button register_btn">商户申请</a>
+						</li>
+					</ul>
+				</nav>			</header>
+<div class="about_banner">
+	<div class="about_img">
+		<img src="lailal_COM/picture/about_us.jpg" />
+	</div>
+</div>
+<div class="block_text history">
+	<div class="about_info">
+		<p>
+			飞狐灵动网络技术有限公司<br /> 成立于2016年10月，公司业务面向企业SAAS服务， <br /> 主要核心产品是支付清结算云服务：云支付、云结算、云钱包、云电商、大数据； <br /> 在此核心产品基础上为企业提供全面整套的互联网+解决方案，与企业开放、合作、共赢！ <br /> 我们为企业提供网上支付SAAS系统方案，企业只需要在平台注册商务服务账号， <br /> 通过SAAS前台服务填写对应的参数，签订好相关的法律协议即可使用， <br /> 无需企业再次开发相应支付系统，根据使用接口的情况收取服务费用， <br /> 优爱云仅收取相应套餐费用和套餐内增值业务费用。
+		</p>
+	</div>
+</div>
+<div class="block_text history">
+	<h1 class="history_title">
+		发展历程
+	</h1>
+	<div class="history_main">
+		<div class="year_div">
+			<h2>
+				<a href="javascript:;">2016年<i></i></a> 
+			</h2>
+			<div class="list">
+				<ul class="clearfix">
+					<li class="cls highlight">
+						<div class="circle">
+						</div>
+						<p class="date">
+							10月
+						</p>
+						<div class="round_div">
+							<p class="intro">
+								我们的公司成立了！
+							</p>
+							<div class="company_info">
+								<p>
+									2016年10月，飞狐灵动网络技术有限公司注册成立。
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="cls">
+						<div class="circle">
+						</div>
+						<p class="date">
+							11月15日
+						</p>
+						<div class="round_div">
+							<p class="intro">
+								开始制作我们的产品——飞狐易支付！
+							</p>
+							<div class="company_info">
+								<p>
+									2016年11月15日，团队组建完毕，一切准备就绪，终于要开始制作我们的产品了。
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h2>
+				<a href="javascript:;">2017年<i></i></a> 
+			</h2>
+			<div class="list">
+				<ul class="clearfix">
+					<li class="cls">
+						<div class="circle">
+						</div>
+						<p class="date">
+							2月15日
+						</p>
+						<div class="round_div">
+							<p class="intro">
+								飞狐易支付 V1.0上线了！
+							</p>
+							<div class="company_info">
+								<p>
+									2017年2月15日，经过三个月多月的努力和磨合，我们的产品要上线了!
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="cls">
+						<div class="circle">
+						</div>
+						<p class="date">
+							6月8日
+						</p>
+						<div class="round_div">
+							<p class="intro">
+								飞狐易支付 进行系统升级！
+							</p>
+							<div class="company_info">
+								<p>
+									2017年6月8日，经过三个多月的运营，从中汲取经验后再由策划专业分析，我们的产品要升级了!
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="cls">
+						<div class="circle">
+						</div>
+						<p class="date">
+							12月7日
+						</p>
+						<div class="round_div">
+							<p class="intro">
+								飞狐易支付 V2.0上线了！
+							</p>
+							<div class="company_info">
+								<p>
+									2017年12月15日，经过两个月的努力技术开发和业务整改，我们的系统终于完成升级了!
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--div class="block_text history">
+	<h1 class="history_title">
+		合作伙伴
+	</h1>
+</div-->
+<div class="block_text history">
+	<h1 class="history_title">
+		联系我们
+	</h1>
+	<div class="row">
+		<div class="4u 12u(mobile)">
+			<div class="contact_block">
+				<img src="lailal_COM/picture/icon_adress.png" />‍
+				<div class="contact_text">
+					<h3>
+						公司地址
+					</h3>
+					<div>
+						西昌市经济开发区科技园，新湖大厦7号楼6楼
+
+					</div>
+					<p>
+						邮编：513400
+					</p>
+					<p class="button_box">
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="4u 12u(mobile)">
+			<div class="contact_block">
+				<img src="lailal_COM/picture/icon_qq.png" />‍
+				<div class="contact_text">
+					<h3>
+						联系方式
+					</h3>
+					<p>
+						QQ：2058222220
+					</p>
+					<p>
+						QQ：2501888880
+					</p>
+                   <p>
+						QQ：3533333321
+					</p>
+					<p class="button_box">
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="4u 12u(mobile)">
+			<div class="contact_block">
+				<img src="lailal_COM/picture/icon_weixin.png" />‍
+				<div class="contact_text">
+					<h3>
+						关注我们
+					</h3>
+					<div class="weixin_box">
+						<img src="lailal_COM/picture/weixin.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="block_text history">
+	<h1 class="history_title">
+		加入我们
+	</h1>
+	<div class="about_info">
+		<p>
+			如果你有兴趣成为我们的团队的一部分,请把你的简历和求职信至
+			<a href="mailto:admin@lailal.com">admin@ail.one</a>,<br /> 我们将很快与您联系。
+		</p>
+	</div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>关于我们</h5>
+					<p>
+						<a target="_blank" href="http://www.lailal.com/">官方网站</a>
+					</p>
+					<p>
+						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2058222220&site=qq&menu=yes">联系我们</a>
+					</p>
+					<p>
+					   <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=2253bd15dc8ff2a9cb3392ca404cf8c105e2981ad50124d6b92ff7cb10be6e3c">加入我们</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>旗下产品</h5>
+					<p>
+						<a target="_blank" href="https://cloud.lailal.net/">飞狐云计算</a>
+					</p>
+					<p>
+						<a target="_blank" href="https://cdn.lailal.net/">飞狐云加速</a>
+					</p>
+                    <p>
+						<a target="_blank" href="https://dns.lailal.cc">飞狐云解析</a>
+					</p>
+                  <p>
+						<a target="_blank" href="https://ssl.lailal.net/">SSL安全证书</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>合作伙伴</h5>
+					<p>
+					<a target="_blank" href="https://www.alipay.com/">支付宝</a>
+					</p>
+					<p>
+					<a target="_blank" href="https://www.tenpay.com/">财付通</a>
+					</p>
+					<p>
+					<a target="_blank" href="https://pay.weixin.qq.com/">微信支付</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link"> <img src="lailal_COM/picture/weixin1_1.jpg" />
+					<p>关注飞狐灵动网络</p>
+				</div>
+			</div>
+			<div class="4u 8u(mobile)">
+				<div class="footer_link">
+					<h5>联系我们</h5>
+					<p>客服QQ：2058222220、2501888880、3533333321</p>
+					<p>联系邮箱：admin@lailal.com、admin@lailal.net</p>
+					<p>联系电话：+86 15656566003、15558052391</p>
+					<p>所在地址：西昌市经济开发区科技园，新湖大厦7号楼6楼</p>
+				</div>
+			</div>
+		</div> <br />
+		<div class="align-center">
+			<p>Copyright © 2008-2018 by：E3i.Cn  Incorporated. All rights reserved.</p>
+          <img src="lailal_COM/images/icp.png" width="15" height="15">&nbsp;<a href="http://www.miibeian.gov.cn" title="本站已在国家工信部备案存档，请放心访问！" target="_blank">蜀ICP备18002429号
+</a>&nbsp;|&nbsp;<img src="lailal_COM/images/ghs.png" width="15" height="15">  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32070502010571"title="本站已在国家公安部备案存档，请放心访问！">川公网安备 32070502010571号</a>
+		</div>
+	</div>
+</footer>
+</div>
+<script src="lailal_COM/js/overall_situation_1.js"></script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?96c6c513af98d359be3b246c7f25ecfb";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</div>
+</body>
+</html>
+</html>
+<body onselectstart="return false;" oncontextmenu="alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。');return false;" onkeydown="if(event.keyCode==27) return false;">
+<script type="text/javascript">
+document.onmousedown = click;
+document.onkeydown = ctrl_key;
+function click() {
+if (event.button == 2)
+{
+alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。');
+return false;
+}
+}
+function ctrl_key() {
+if (event.keyCode == 17) {
+window.alert("请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。");
+return false;
+}
+ 
+if (event.keyCode == 123) {
+alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。！');
+return false;
+}
+}
+</script>
+<!-------------------------------------------------------------------------// 
+|    飞狐灵动网络接仿站定制 ： [ Php、Asp、Html 、C+、服务器、主机]        
+---------------------------------------------------------------------------//  
+|                   飞狐灵动网络     官网：www.lailal.com                 
+---------------------------------------------------------------------------// 
+|               主 动 才 会 有 故 事 ，赶 紧 联 系 我 们 吧 ！             
+---------------------------------------------------------------------------// 
+|    E-mail:  admin@lailal.com    狐狸QQ：2501888880  2058222220            
+---------------------------------------------------------------------------// 
+| Copyright (c) 2008-2018 http://www.lailal.com  All rights reserved.      
+---------------------------------------------------------------------------//
+-->
