@@ -1,0 +1,443 @@
+<!-------------------------------------------------------------------------// 
+|    飞狐灵动网络接仿站定制 ： [ Php、Asp、Html 、C+、服务器、主机]        
+---------------------------------------------------------------------------//  
+|                   飞狐灵动网络     官网：www.lailal.com                 
+---------------------------------------------------------------------------// 
+|               主 动 才 会 有 故 事 ，赶 紧 联 系 我 们 吧 ！             
+---------------------------------------------------------------------------// 
+|    E-mail:  admin@lailal.com    狐狸QQ：2501888880  2058222220            
+---------------------------------------------------------------------------// 
+| Copyright (c) 2008-2018 http://www.lailal.com  All rights reserved.      
+---------------------------------------------------------------------------//
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="Author" content="飞狐易支付">
+		<meta name="keywords" content="飞狐易支付,云钱包,云支付,云结算,支付接口,支付营销,对账,微信支付,支付宝,QQ钱包,个人支付接口,免签支付接口,网站支付接口">
+		<meta name="description" content="飞狐易支付,专业的收银系统,集成主流支付渠道,协助中小企业快速布局、改善甚至拓展收银场景,适用于网站、门店、社会化传播等线上线下收银场景。" />
+		<link rel="stylesheet" href="lailal_COM/css/main_2.css" />
+		<link rel="stylesheet" href="lailal_COM/css/font-awesome.min_2.css" />
+		<script src="lailal_COM/js/jquery.min_2.js"></script>
+		<script src="lailal_COM/js/jquery.dropotron.min_2.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="lailal_COM/css/ie8_2.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="lailal_COM/js/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="lailal_COM/js/respond.min.js"></script><![endif]-->
+		<title>飞狐易支付 -  聚合支付系统 | 支付宝 微信支付 支付接口</title>
+	</head>
+
+	<body>
+		<section id="page-wrapper">
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="#"><img src="lailal_COM/picture/logo_2.png"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li>
+							<a href="./#lailal.com">首页</a>
+						</li>
+						<li>
+							<a href="pay_produceIntroduce.shtml">功能介绍</a>
+						</li>
+						<li>
+							<a href="pay_costExplain.shtml">费用说明</a>
+						</li>
+						<!--li>
+							<a href="merchant/Api.html">API</a>
+						</li-->
+						<li>
+							<a target="_blank" href="http://help.ail.one">帮助文档</a>
+						</li>
+					</ul>
+				</nav> 				<nav id="navRight">
+					<ul>
+						<li>
+					<a href="http://pay.cccyun.cc/user/login.php" class="button login_btn">商户登录</a>
+						</li>
+						<li>
+							<a href="http://wpa.qq.com/msgrd?v=3&uin=3533333321&site=qq&menu=yes" class="button register_btn">商户申请</a>
+						</li>
+					</ul>
+				</nav>			</header>
+<div class="container api_doc">
+	<div class="api_doc_bar">
+		<dl>
+			<dt>
+									<a href="#zfqdId">支付渠道</a>
+								</dt>
+		</dl>
+		<dl>
+			<dt>
+									<a href="#kfzxId">开发中心</a>
+								</dt>
+		</dl>
+		<dl>
+			<dt>
+									<a href="#glzxId">管理中心</a>
+								</dt>
+		</dl>
+		<dl>
+			<dt>
+									<a href="#yyzxId">运营中心</a>
+								</dt>
+		</dl>
+		<dl>
+			<dt>
+									<a href="#cwzxId">财务中心</a>
+								</dt>
+		</dl>
+		<dl>
+			<dt>
+									<a href="#ktsmId">开通说明</a>
+								</dt>
+		</dl>
+
+	</div>
+	<div class="api_doc_content">
+		<div id="zfqdId" class="api_block">
+			<h3>
+				支付渠道
+			</h3>
+			<img style="width:430px;height:430px" src="lailal_COM/picture/yuke01.png" />
+			<h4>
+				PC网页支付
+			</h4>
+			<p>
+				飞狐易支付,PC网页支付支持支付宝网页支付、支付宝扫码支付、 微信扫码支付、银联网页支付、百度钱包等。
+			</p>
+			<img src="lailal_COM/picture/yuke02.png" />
+			<h4>
+				扫码支付
+			</h4>
+			<p>
+				飞狐易支付,支持统一扫码支付,渠道扫码支付,包括支付宝扫码支付、 微信扫码支付等。
+			</p>
+			<img src="lailal_COM/picture/yuke04.png" />
+			<h4>
+				微信公众号支付
+			</h4>
+			<p>
+				飞狐易支付,为微信公众号提供全套支付解决方案： 用户可在你的微信服务号内进行微信 支付，简单便捷！
+			</p>
+			<img src="lailal_COM/picture/yuke03.png" />
+			<h4>
+				手机APP支付
+			</h4>
+			<p>
+				飞狐易支付,为iOS/Android原生/H5 App提供支付解决方案:支持微信支付、支付宝支付、银联手机支付、百度钱包等。
+			</p>
+		</div>
+		<div id="kfzxId" class="api_block">
+			<h3>
+				开发中心
+			</h3>
+			<div class="row">
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-code round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								集成开发
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-shield round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								安全设置
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-wrench round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								渠道配置
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="glzxId" class="api_block">
+			<h3>
+				管理中心
+			</h3>
+			<div class="row">
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<img src="lailal_COM/picture/kf02.png" />
+						<div class="content">
+							<h4>
+								开发人员
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<img src="lailal_COM/picture/kf01.png" />
+						<div class="content">
+							<h4>
+								运营人员
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="4u 4u(mobile)">
+					<div class="fund_text align-center">
+						<img src="lailal_COM/picture/kf03.png" />
+						<div class="content">
+							<h4>
+								财务人员
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="yyzxId" class="api_block">
+			<h3>
+				运营中心
+			</h3>
+			<div class="row">
+				<div class="6u 6u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-gears round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								配置
+							</h4>
+							<p>
+								风控、分账、费用、营销、结算
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="6u 6u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-bar-chart round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								报表
+							</h4>
+							<p>
+								资金流水报表、日报表、汇总报表
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cwzxId" class="api_block">
+			<h3>
+				财务中心
+			</h3>
+			<div class="row">
+				<div class="6u 6u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-list-ol round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								对账
+							</h4>
+							<p>
+								系统自动对账、对账结果查询、对账处理
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="6u 6u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-database round_icon round_border"></i>
+						<div class="content">
+							<h4>
+								财务
+							</h4>
+							<p>
+								余额调整、相关审核、批量出款、T+n自动结算
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ktsmId" class="api_block">
+			<h3>
+				开通说明
+			</h3>
+			<div class="row">
+				<div class="4u 12u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-edit featured"></i>
+						<div class="content">
+							<h4>
+								注册
+							</h4>
+							<p>
+								您可以免费申请账号，使用开发的相关功能。
+							</p>
+							<p>
+								<a href="/user/reg.php" target="_blank">立即注册</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="4u 12u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-file-code-o featured alt"></i>
+						<div class="content">
+							<h4>
+								集成
+							</h4>
+							<p>
+								开发人员根据文档说明配置相关的信息.下载SDK与DEMO进行集成.
+							</p>
+							<p>
+								<a href="http://js.tx87.cn/489788" target="_blank">查看文档</a>&nbsp;&nbsp;&nbsp;
+								<a href="/SDK/SDK.zip" target="_blank">下载SDK</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="4u 12u(mobile)">
+					<div class="fund_text align-center">
+						<i class="icon fa-check-square-o featured alt2"></i>
+						<div class="content">
+							<h4>
+								开通
+							</h4>
+							<p>
+								正式开通如果有个性化定制需求，请线下联系我们
+							</p>
+							<p>
+								<a href="pay_aboutUs.shtml" target="_blank">联系我们</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>关于我们</h5>
+					<p>
+						<a target="_blank" href="http://www.lailal.com/">官方网站</a>
+					</p>
+					<p>
+						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2058222220&site=qq&menu=yes">联系我们</a>
+					</p>
+					<p>
+					   <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=2253bd15dc8ff2a9cb3392ca404cf8c105e2981ad50124d6b92ff7cb10be6e3c">加入我们</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>旗下产品</h5>
+					<p>
+						<a target="_blank" href="https://cloud.lailal.net/">飞狐云计算</a>
+					</p>
+					<p>
+						<a target="_blank" href="https://cdn.lailal.net/">飞狐云加速</a>
+					</p>
+                    <p>
+						<a target="_blank" href="https://dns.lailal.cc">飞狐云解析</a>
+					</p>
+                  <p>
+						<a target="_blank" href="https://ssl.lailal.net/">SSL安全证书</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link list_p">
+					<h5>合作伙伴</h5>
+					<p>
+					<a target="_blank" href="https://www.alipay.com/">支付宝</a>
+					</p>
+					<p>
+					<a target="_blank" href="https://www.tenpay.com/">财付通</a>
+					</p>
+					<p>
+					<a target="_blank" href="https://pay.weixin.qq.com/">微信支付</a>
+					</p>
+				</div>
+			</div>
+			<div class="2u 4u(mobile)">
+				<div class="footer_link"> <img src="lailal_COM/picture/weixin1_1.jpg" />
+					<p>关注飞狐灵动网络</p>
+				</div>
+			</div>
+			<div class="4u 8u(mobile)">
+				<div class="footer_link">
+					<h5>联系我们</h5>
+					<p>客服QQ：2058222220、2501888880、3533333321</p>
+					<p>联系邮箱：admin@lailal.com、admin@lailal.net</p>
+					<p>联系电话：+86 15656566003、15558052391</p>
+					<p>所在地址：西昌市经济开发区科技园，新湖大厦7号楼6楼</p>
+				</div>
+			</div>
+		</div> <br />
+		<div class="align-center">
+			<p>Copyright © 2008-2018 by：E3i.Cn  Incorporated. All rights reserved.</p>
+          <img src="lailal_COM/images/icp.png" width="15" height="15">&nbsp;<a href="http://www.miibeian.gov.cn" title="本站已在国家工信部备案存档，请放心访问！" target="_blank">蜀ICP备18002429号
+</a>&nbsp;|&nbsp;<img src="lailal_COM/images/ghs.png" width="15" height="15">  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32070502010571"title="本站已在国家公安部备案存档，请放心访问！">川公网安备 32070502010571号</a>
+		</div>
+	</div>
+</footer>
+</div>
+<script src="lailal_COM/js/overall_situation_1.js"></script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?96c6c513af98d359be3b246c7f25ecfb";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</div>
+</body>
+</html>
+</html>
+<body onselectstart="return false;" oncontextmenu="alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。');return false;" onkeydown="if(event.keyCode==27) return false;">
+<script type="text/javascript">
+document.onmousedown = click;
+document.onkeydown = ctrl_key;
+function click() {
+if (event.button == 2)
+{
+alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。');
+return false;
+}
+}
+function ctrl_key() {
+if (event.keyCode == 17) {
+window.alert("请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。");
+return false;
+}
+ 
+if (event.keyCode == 123) {
+alert('请尊重“飞狐灵动网络技术有限公司”劳动成果！谢谢合作。！');
+return false;
+}
+}
+</script>
